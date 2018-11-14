@@ -1,0 +1,89 @@
+body {
+	text-align: center;
+	color: darkkhaki;
+}
+a { 
+text-decoration: none;
+}
+.main-header {
+	margin-bottom: 10px;
+}
+
+#main-menu {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	list-style: none;
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+}      
+                                                                                                                                                              
+.button {
+	font-family: Courier New, monospace;
+	font-size: 30px;
+	background: seashell;
+
+}
+.button:hover {
+	background: rosyBrown;
+	color: mistyRose;
+}
+
+.showcase {
+	padding: 250px;
+	background-image: url(../images/fj.jpg);
+	margin-bottom: 10px;
+	background-size: cover;
+	background-position: center;
+}
+.main-article {
+	padding: 0;
+	margin-bottom: 10px;
+	display: grid;
+	box-shadow: 0 0 15px black;
+	border: solid;
+	grid-gap: 5px;
+	grid-template-columns: 2fr 1fr;
+}
+.main-article p {
+	color: white;
+	font-family: Verdana;
+	margin: 20px 5 40px 5;
+}
+.main-article:hover {
+	background: turquoise;
+}
+.article-left {
+	background: deepskyBlue;
+	padding: 5px;
+	display: grid;
+	grid-gap: 5px;
+	grid-template-columns: 2fr 1fr;
+}
+.inside-left-first{
+	background: dodgerblue;
+	padding: 60px;
+}
+.inside-left-second{
+	background: steelblue;
+	padding: 55px;
+}
+.article-right {
+	background: cadetBlue;
+	padding: 20px;
+}
+
+.footer {
+	padding: 5px;
+	background: tan;
+	margin-bottom: 10px;
+}
+.footer:hover {
+	background: black;
+	
+}
+
+	
+
+	
